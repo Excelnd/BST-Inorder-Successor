@@ -93,7 +93,7 @@ int main()
 	cout << "\n";
 
 	struct Node* successor = Getsuccessor(root, 3);
-	if (successor == NULL) cout << "No successor Found\n";
+	if (successor == NULL) cout << "No successor Found \n";
 	else
 		cout << "Successor is " << successor->data << "\n";
     return 0;
